@@ -1,0 +1,27 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimitarRadkovDimitrov/Node.git"
+  },
+  "author": "Dimitar Dimitrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimitarRadkovDimitrov/Node/issues"
+  },
+  "homepage": "https://github.com/DimitarRadkovDimitrov/Node#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3",
+    "mongoose": "^4.11.10",
+    "nodemon": "^1.17.5"
+  }
+}
