@@ -1,4 +1,4 @@
-# Node
+# Node CRM App
 Node, Express, and MongoDB application that allows for the adding, removing, and updating of contacts from a database.
 
 ## How to Run: ##
